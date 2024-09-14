@@ -1,0 +1,460 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#Main{
+    height: auto;
+    width: 100%;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    height: 81px;
+    width: 72px;
+    margin-left: 90px;
+    margin-top: 10px;
+}  
+.logo img{
+    height: 81px;
+    width: 72px;
+} 
+#Tittle{
+    margin-top: -80px;
+    margin-left: 900px;
+    font-size: 25px;
+    color: #F23D92;
+    font-family: cursive;
+}
+#Home{
+    height: 50px;
+    width: 800px;
+    padding-top: 18px;
+    margin-left: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Home a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: rgb(49, 46, 46);
+}
+.Products1{
+    position: relative;
+    top: 0px;
+}
+.hovr{
+    height: 50px;
+    width: 110px;
+    
+    background-color: #F23D92;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    display: none;
+}
+.hovr li{
+    list-style: none;
+}
+.Products1:hover .hovr{
+    display: block;
+
+}
+#BG img{
+    height: 650px;
+    width: 100%;
+}
+#Container1{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(238, 230, 230);
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+#Store{
+    height: 300px;
+    width: 400px;
+}
+#Store1{
+    margin-left: 20px;
+    margin-top: 80px;
+    rotate: 5deg;
+
+}
+#Store1 img{
+    height: 40px;
+    width: 40px;
+}
+#Store2{
+    margin-left: 20px;
+    margin-top: 80px;
+
+}
+#Store2 img{
+    height: 40px;
+    width: 40px;
+}
+#Store3{
+    margin-left: 340px;
+    margin-top: -200px;
+
+}
+#Store3 img{
+    height: 40px;
+    width: 40px;
+    rotate: -20deg;
+}
+#Store4{
+    margin-left: 340px;
+    margin-top: 40px;
+
+}
+#Store4 img{
+    height: 40px;
+    width: 40px;
+    rotate: 20deg;
+}
+#Store5{
+    margin-left: 340px;
+    margin-top: 40px;
+
+}
+#Store5 img{
+    height: 40px;
+    width: 40px;
+    rotate: -20deg;
+}
+
+#Container1{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(238, 230, 230);
+}
+#Store{
+    height: 300px;
+    width: 400px;
+    
+}
+#Store1{
+    margin-left: 20px;
+    margin-top: 80px;
+
+}
+#Store1 img{
+    height: 40px;
+    width: 40px;
+}
+#Store2{
+    margin-left: 20px;
+    margin-top: 80px;
+
+}
+#Store2 img{
+    height: 40px;
+    width: 40px;
+}
+#Store3{
+    margin-left: 340px;
+    margin-top: -200px;
+
+}
+#Store3 img{
+    height: 40px;
+    width: 40px;
+}
+#Store4{
+    margin-left: 340px;
+    margin-top: 40px;
+
+}
+#Store4 img{
+    height: 40px;
+    width: 40px;
+}
+#Store5{
+    margin-left: 340px;
+    margin-top: 40px;
+
+}
+#Store5 img{
+    height: 40px;
+    width: 40px;
+}
+#Find{
+    height: 250px;
+    width: 250px;
+    margin-top: -420px;
+    margin-left: 260px;
+}
+.FindUs h1{
+    color: #F23D92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FindUs a button{
+    border: 1px solid red;
+    height: 50px;
+    width: 150px;
+    background-color: #F23D92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 50px;
+    border-radius: 6px;
+    
+}
+.FindUs a{
+    text-decoration: none;
+
+}
+a button:hover{
+    background-color: #9c084d;
+}
+.FindUs p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 900;
+
+}
+
+#Find2{
+    height: 250px;
+    width: 250px;
+    margin-top: -250px;
+    margin-left: 840px;
+}
+.FindUs h1{
+    color: #F23D92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FindUs a button{
+    border: 1px solid red;
+    height: 50px;
+    width: 150px;
+    background-color: #F23D92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 50px;
+    border-radius: 40px;
+    
+}
+.FindUs a{
+    text-decoration: none;
+
+}
+a button:hover{
+    background-color: #9c084d;
+}
+.FindUs p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 900;
+
+}
+#Enchride{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+}
+#Bigimages{
+    height: 300px;
+    width: 500px;
+    margin-left: 90px;
+    
+}
+.premium span{
+    color: #F23D92;
+    font-size: 40px;
+
+}
+.premium p{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.premium h1{
+    font-size: 23px;
+    padding-top: 30px;
+}
+#Big{
+    height: auto;
+    width: auto;
+    
+
+}
+.premium1 img{
+    height: auto;
+    width: auto;
+    
+}
+
+#Multiple{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+}
+#Bigimages1{
+    height: 300px;
+    width: 500px;
+    margin-left: 90px;
+    
+    
+}
+.premium span{
+    color: #F23D92;
+    font-size: 40px;
+
+}
+.premium p{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.premium h1{
+    font-size: 23px;
+    padding-top: 30px;
+}
+#Big{
+    height: auto;
+    width: auto;
+    
+
+}
+.premium1 img{
+    height: auto;
+    width: auto;
+    
+}
+
+#Video{
+    height: 400px;
+    width: 100%;
+    background-color: #f5f0f0;
+}
+.Ins{
+    color: #F23D92;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 35px;
+    font-family: cursive;
+    margin-left: -600px;
+    padding-top: 30px;
+    
+}
+#Play{
+    margin-left: 120px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.D iframe{
+    height: 200px;
+    width: 350px;
+    border-radius: 9px;
+}
+
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button a button{
+    border: 1px solid red;
+    height: 60px;
+    width: 200px;
+    background-color: #F23D92;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.Button a{
+    text-decoration: none;
+
+}
+a button:hover{
+    background-color: #9c084d;
+}
+
+#contuct{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.D span{
+    color: #F23D92;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+    border-width: 5px;
+}
+.D p{
+    font-size: 20px;
+    font-family: cursive;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#next{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-top: 5px;
+}
+.D1 img{
+    height: 50px;
+    width: 50px;
+    padding-top: 5px;
+    
+}
+.D1 span{
+    color: #F23D92;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+    border-width: 5px;
+}
+#footer{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(221, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+
+}
